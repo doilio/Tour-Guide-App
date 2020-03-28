@@ -1,4 +1,4 @@
-package com.doiliomatsinhe.tourguide.ui.places;
+package com.doiliomatsinhe.tourguide.ui.gym;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,12 +24,12 @@ import java.util.Objects;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class PlacesFragment extends Fragment {
+public class GymFragment extends Fragment {
 
     private static final String CONTENT_EXTRA = "Extra_content";
     private ContentListBinding binding;
 
-    public PlacesFragment() {
+    public GymFragment() {
         // Required empty public constructor
     }
 
@@ -71,9 +71,7 @@ public class PlacesFragment extends Fragment {
 
 
         // Populating my list of content
-        contentList.add(new Content(getString(R.string.cfm), getString(R.string.cfm_location), getString(R.string.hours_always_open), R.drawable.cfm, getString(R.string.cfm_description)));
-        contentList.add(new Content(getString(R.string.catedral), getString(R.string.catedral_location), getString(R.string.hours_always_open), R.drawable.cathedral, getString(R.string.catedral_description)));
-        contentList.add(new Content(getString(R.string.praca), getString(R.string.praca_location), getString(R.string.hours_always_open), R.drawable.praca, getString(R.string.praca_description)));
+        contentList.add(new Content(getString(R.string.universo),getString(R.string.universo_location),getString(R.string.universo_time),R.drawable.universo,getString(R.string.universo_site),getString(R.string.universo_description),getString(R.string.universo_numero)));
         return contentList;
     }
 }

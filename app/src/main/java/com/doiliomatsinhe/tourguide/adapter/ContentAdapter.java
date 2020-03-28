@@ -29,7 +29,7 @@ public class ContentAdapter extends ArrayAdapter<Content> {
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.content_item, parent, false);
         }
-        // contains the current track
+        // contains the current content
         Content currentContent = getItem(position);
 
         // Finds the Views by ID

@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.doiliomatsinhe.tourguide.R;
+import com.doiliomatsinhe.tourguide.ui.gym.GymFragment;
 import com.doiliomatsinhe.tourguide.ui.places.PlacesFragment;
 import com.doiliomatsinhe.tourguide.ui.restaurants.RestaurantsFragment;
 import com.doiliomatsinhe.tourguide.ui.hotels.HotelsFragment;
@@ -21,7 +22,7 @@ import com.doiliomatsinhe.tourguide.ui.hotels.HotelsFragment;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.restaurants, R.string.hotels, R.string.places};
+    private static final int[] TAB_TITLES = new int[]{R.string.restaurants, R.string.hotels, R.string.places, R.string.gyms};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -37,8 +38,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             return new RestaurantsFragment();
         } else if (position == 1) {
             return new HotelsFragment();
-        } else {
+        } else if (position == 2) {
             return new PlacesFragment();
+        } else {
+            return new GymFragment();
         }
 
     }
@@ -52,6 +55,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 3 total pages.
-        return 3;
+        return 4;
     }
 }

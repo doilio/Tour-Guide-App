@@ -39,7 +39,7 @@ public class RestaurantsFragment extends Fragment {
                              Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater, R.layout.content_list, container, false);
 
-        // Creates a list of Tracks
+        // Creates a list of content
         final ArrayList<Content> contentList = populateContentList();
 
         // Seting the Adapter
@@ -71,7 +71,7 @@ public class RestaurantsFragment extends Fragment {
     private ArrayList<Content> populateContentList() {
         final ArrayList<Content> contentList = new ArrayList<>();
 
-        // Populating my list of Tracks
+        // Populating my list of content
         contentList.add(new Content(getString(R.string.el_patron), getString(R.string.el_patron_address), getString(R.string.el_patron_hours), R.drawable.el_patron, getString(R.string.el_patron_site), getString(R.string.el_patron_description), getString(R.string.el_patron_phone)));
         contentList.add(new Content(getString(R.string.ficka), getString(R.string.ficka_address), getString(R.string.ficka_hours), R.drawable.ficka, getString(R.string.ficka_site), getString(R.string.ficka_description), getString(R.string.ficka_telephone)));
         contentList.add(new Content(getString(R.string.backyard), getString(R.string.backyard_address), getString(R.string.backyard_hours), R.drawable.backyard, getString(R.string.backyard_site), getString(R.string.backyard_description), getString(R.string.backyard_phone)));

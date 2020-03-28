@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Guia turístico</string>
     <string name="hotels">Hotéis</string>
+    <string name="gyms">Ginásios</string>
     <string name="content_image"  translatable="false">Content Image</string>
 
     <!--Restaurants-->
@@ -91,6 +92,12 @@
     <string name="restaurants">"Restaurantes "</string>
     <string name="cfm">Estação Ferroviária de Maputo</string>
     <string name="southbeach_hours">Sempre Aberto</string>
+    <string name="universo" translatable="false">Ginásio Universo</string>
+    <string name="universo_location" translatable="false">1098 Av. 24 de Julho, Maputo</string>
+    <string name="universo_time" translatable="false">8AM - 2PM</string>
+    <string name="universo_description">Boa academia, mesmo quando está cheia, há máquinas suficientes para todos, personal trainers competentes e chuveiros agradáveis</string>
+    <string name="universo_site" translatable="false">https://www.facebook.com/GinasioUniverso/</string>
+    <string name="universo_numero" translatable="false">21 301 429</string>
 
     <!--Places-->
 

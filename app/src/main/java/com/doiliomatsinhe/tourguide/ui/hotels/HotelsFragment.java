@@ -39,7 +39,7 @@ public class HotelsFragment extends Fragment {
                              Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater, R.layout.content_list, container, false);
 
-        // Creates a list of Tracks
+        // Creates a list of content
         final ArrayList<Content> contentList = populateContentList();
 
         // Seting the Adapter
@@ -69,7 +69,7 @@ public class HotelsFragment extends Fragment {
     private ArrayList<Content> populateContentList() {
         final ArrayList<Content> contentList = new ArrayList<>();
 
-        // Populating my list of Tracks
+        // Populating my list of content
         contentList.add(new Content(getString(R.string.radisson), getString(R.string.radisson_address), getString(R.string.hours_always_open), R.drawable.radisson, getString(R.string.radisson_site), getString(R.string.radisson_description), getString(R.string.radisson_phone)));
         contentList.add(new Content(getString(R.string.cardoso), getString(R.string.cardoso_address), getString(R.string.hours_always_open), R.drawable.cardoso, getString(R.string.cardoso_site), getString(R.string.cardoso_description), getString(R.string.cardoso_phone)));
         contentList.add(new Content(getString(R.string.polana), getString(R.string.polana_address), getString(R.string.hours_always_open), R.drawable.polana, getString(R.string.polana_site), getString(R.string.polana_description), getString(R.string.polana_phone)));
