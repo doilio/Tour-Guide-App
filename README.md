@@ -14,7 +14,7 @@ The required components for this project are:
   
 
     
-![device-2020-03-28-104845](https://user-images.githubusercontent.com/38020305/77819553-49b9f700-70e4-11ea-9d7e-b2a391a27a94.png)
+![device-2020-03-28-113814](https://user-images.githubusercontent.com/38020305/77820301-e7fc8b80-70e9-11ea-9af4-2cda1c621f63.png)
 ![device-2020-03-28-105050](https://user-images.githubusercontent.com/38020305/77819584-884fb180-70e4-11ea-964d-f5b0a73a0f91.png)
 ![device-2020-03-28-104926](https://user-images.githubusercontent.com/38020305/77819578-7837d200-70e4-11ea-914f-7b726f80866b.png)
 ![device-2020-03-28-104958](https://user-images.githubusercontent.com/38020305/77819580-7b32c280-70e4-11ea-9f2b-8ac5631b836f.png)
